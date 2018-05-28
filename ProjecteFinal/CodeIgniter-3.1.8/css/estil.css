@@ -1,0 +1,65 @@
+#fondo{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#cont_inici{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+#panel_intern{
+    margin-bottom: 60px;
+}
+#right{
+    float: right;
+    width: 45%;
+}
+#left{
+    float: left;
+    width: 45%;
+}
+#login_form{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 35%;
+}
+#noticies_rss{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 85%;
+}
+#login{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 35%;
+}
+.img_responsive{
+    width: 80%;
+    height: auto;
+}
+@media only screen and (max-width: 500px) {
+    .img_responsive{
+        width: 40%;
+        height: auto;
+    }
+    #login{
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 100%;
+    }
+}
+#div_noticia{
+    padding: 15px;
+    border: 2px solid blue;
+    border-radius: 25px;
+    margin: 5px;
+}
+#contenidor_factura{
+    width: 100%;
+}
+#taula_info{
+    margin: 0 auto;
+}

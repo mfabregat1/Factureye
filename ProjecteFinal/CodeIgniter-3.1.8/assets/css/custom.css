@@ -1,0 +1,69 @@
+.tarjeta header{
+  background: #edc;
+  border-radius: 5px 5px 0 0;
+  padding: 4px;
+}
+
+.tarjeta .cuerpo{
+  padding: 10px;
+  border-right: 1px solid #edc;
+  border-left: 1px solid #edc;
+  border-bottom: 1px solid #edc;
+}
+
+
+.cuerpo{
+  min-height: 160px;
+}
+
+pre{
+  word-break: normal !important;
+  word-wrap: normal !important;
+}
+
+/*** FOOTER INICIA  *****/
+.footerPrincipal{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.estiloContenedor .titulo{
+    padding: 5px 0;
+    background: #2c233c;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.estiloContenedor .descripcion{
+  padding: 5px;
+}
+
+.estiloContenedor div a{
+    padding: 0;
+}
+
+/**** FOOTER FIN   *****/
+
+
+/* TAMAÑO XS*/
+@media (max-width: 767px) {
+  .tarjeta, .estiloContenedor{
+    margin-bottom: 15px;
+  }
+}
+
+/* TAMAÑO SM */
+@media (min-width:768px){
+  .tarjeta{
+    margin-bottom: 15px;
+  }
+}
+
+/* TAMAÑO MD */
+@media (min-width:992px){
+}
+
+/* TAMAÑO LG */
+@media (min-width:1200px){
+
+}
